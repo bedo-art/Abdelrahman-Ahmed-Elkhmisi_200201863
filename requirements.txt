@@ -1,0 +1,4 @@
+# No external packages required
+# Uses built-in Python libraries:
+# tkinter
+# sqlite3
