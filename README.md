@@ -5,10 +5,16 @@ Abdelrahman Ahmed Elkhmisi
 
 ## Project Description
 
-Library Management System is a Python application connected to an SQL database.
-The system allows users to manage books, members, and borrowing records.
+Library Management System is a Python application connected to an SQLite database.
 
-The project supports both:
+The system allows users to manage:
+
+- Books
+- Members
+- Borrowing Records
+
+The project includes both:
+
 - Graphical User Interface (GUI)
 - Command Line Interface (CLI)
 
@@ -22,12 +28,27 @@ The project supports both:
 ## Features
 
 ### Book Management
+
 - Add new books
 - View all books
 - Delete books
+- Track book availability
 
-### Database Management
-The application stores data using an SQLite database.
+### Member Management
+
+- Add members
+- View members
+- Delete members
+
+### Borrowing Management
+
+- Borrow books
+- Return books
+- Update book availability automatically
+
+## Database Management
+
+The application uses SQLite for data storage.
 
 Database tables:
 
